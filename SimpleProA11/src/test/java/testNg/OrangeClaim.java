@@ -12,6 +12,6 @@ public class OrangeClaim extends BaseClass {
 		//Creating object for orangeHRM home page
 		OrangeHomepage ohp = new OrangeHomepage(driver);
 		ohp.getclaim().click();
-		System.out.println("Execution Successfull");
+		System.out.println("Execution Successfully");
 	}
 }
