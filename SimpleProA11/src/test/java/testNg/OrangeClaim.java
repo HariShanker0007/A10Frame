@@ -11,5 +11,6 @@ public class OrangeClaim extends BaseClass {
 	public void claim() {
 		OrangeHomepage ohp = new OrangeHomepage(driver);
 		ohp.getclaim().click();
+		System.out.println("Execution Successfull");
 	}
 }
