@@ -9,6 +9,7 @@ public class OrangeClaim extends BaseClass {
 	
 	@Test(groups = "smoke")
 	public void claim() {
+		//Creating object for orangeHRM home page
 		OrangeHomepage ohp = new OrangeHomepage(driver);
 		ohp.getclaim().click();
 		System.out.println("Execution Successfull");
